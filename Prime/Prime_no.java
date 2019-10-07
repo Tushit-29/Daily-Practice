@@ -1,4 +1,4 @@
- import java.util.Scanner;
+ /* import java.util.Scanner;
 class Prime_no
 {
 	public static void main(String args[])
@@ -28,31 +28,36 @@ class Prime_no
 			   System.out.println("not prime");
 			  
 	}
-}   
+}       */
 
 
 
-/*
+
 import java.util.Scanner;
 class Prime_no
 {
 	public static void main(String args[])
 	{
 		Scanner obj = new Scanner(System.in);
-		System.out.println("enter the range");
+		System.out.println("enter starting no.");
 		int n = obj.nextInt();
-		int temp=0,count=0;
-		for(int j=2;j<=n;j++)
+		System.out.println("enter ending no.");
+		int p = obj.nextInt();
+		
+		
+		int temp=0;
+		for(int j=n;j<=p;j++)
 		{  int m=n;
-		for(int i=2;i<=m/2+1;i++)
+		 
+		for(int i=2;i<=n;i++)
 		{ 
 			if(m%i == 0)
 			{
 				break;
-				temp=1
+				
 			}
+			System.out.println();
 		
-			
 		}
 		 
 			 
@@ -60,9 +65,9 @@ class Prime_no
 		{   count++;
 		System.out.println("no of prime "+count);  } 
 		
-	}
-}   
- */
+	    }
+    }   
+}
 
 
 
