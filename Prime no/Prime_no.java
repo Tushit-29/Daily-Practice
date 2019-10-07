@@ -15,7 +15,7 @@ class Prime_no
 				break;
 			}
 			
-		}
+		} 
 		  if(n>2) 
 		  {
 			 
